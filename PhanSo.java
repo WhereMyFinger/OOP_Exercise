@@ -14,8 +14,8 @@ public class PhanSo {
 		this.tuSo = scanner.nextInt();
 		
 		while(this.mauSo == 0) {
-		System.out.println("Nhap mau so: ");
-		this.mauSo = scanner.nextInt();
+			System.out.println("Nhap mau so: ");
+			this.mauSo = scanner.nextInt();
 		}
 	}
 	
