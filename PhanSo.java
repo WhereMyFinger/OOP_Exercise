@@ -13,8 +13,10 @@ public class PhanSo {
 		System.out.println("Nhap tu so: ");
 		this.tuSo = scanner.nextInt();
 		
+		while(this.mauSo == 0) {
 		System.out.println("Nhap mau so: ");
 		this.mauSo = scanner.nextInt();
+		}
 	}
 	
 	public void xuat() {
