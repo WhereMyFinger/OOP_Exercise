@@ -38,8 +38,8 @@ public class Student {
 		System.out.println("Input student address: ");
 		this.address = scanner.next();
 		
-		System.out.println("Input student GPA: ");
-		this.gpa = scanner.nextFloat();
+		//System.out.println("Input student GPA: ");
+		//this.gpa = scanner.nextFloat();
 	}
 	
 	public void showStudent() {
